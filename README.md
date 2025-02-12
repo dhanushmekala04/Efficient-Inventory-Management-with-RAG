@@ -95,13 +95,6 @@ project/
 - **FAISS**: For efficient similarity search and retrieval.
 - **Groq**: For generating responses using the Mixtral-8x7b-32768 model.
 
-## Contributing
-
-Contributions are welcome! Please fork the repository and submit a pull request with your changes.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
