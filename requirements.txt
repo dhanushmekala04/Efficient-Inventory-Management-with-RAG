@@ -4,6 +4,7 @@ langchain
 langchain-community
 pypdf
 python-docx
+gunicorn
 #unstructured
 transformers
 faiss-cpu
