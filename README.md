@@ -1,6 +1,3 @@
-Here’s a **refined and detailed version** of your **RAG ChatBot README** and **architecture diagram** for better clarity and presentation. I've also included a **text-based diagram** for easier visualization.
-
----
 
 # RAG ChatBot
 
@@ -206,7 +203,7 @@ Enjoy using the **RAG ChatBot**! 🚀
 
 ---
 
-### **Visual Diagram (Optional)**
+### **Visual Diagram **
 
 If you prefer a visual diagram, you can use tools like **Lucidchart**, **Draw.io**, or **Miro** to create a flowchart based on the text-based diagram above. Here's a quick guide:
 
