@@ -109,3 +109,73 @@ For any questions or feedback, please open an issue on GitHub or contact the mai
 ---
 
 Enjoy using the RAG ChatBot! 🚀
+
+
++-------------------+
+|  RAG Chatbot      |
++-------------------+
+        |
+        |
++-------v-------+
+|  Frontend     |
++-------+-------+
+        |
++-------v-------+
+| Streamlit UI  |
++-------+-------+
+        |
++-------v-------+
+| Chat Interface|
++-------+-------+
+        |
++-------v-------+
+| Query Input   |
++-------+-------+
+        |
++-------v-------+
+| Response Display|
++-------+-------+
+        |
++-------v-------+
+| Source References|
++---------------+
+
++-------------------+
+|  Backend          |
++-------+-------+
+        |
++-------v-------+
+| FastAPI Server|
++-------+-------+
+        |
++-------v-------+
+| Document Processing|
++-------+-------+
+        |
++-------v-------+
+| Embedding Storage|
++-------+-------+
+        |
++-------v-------+
+| Query Processing|
++-------+-------+
+        |
++-------v-------+
+| Response Generation|
++---------------+
+
++-------------------+
+|  Vector Database  |
++-------+-------+
+        |
++-------v-------+
+| FAISS/Pinecone|
++---------------+
+
++-------------------+
+|  LLM Integration  |
++-------+-------+
+        |
++-------v-------+
+| Groq/OpenAI API|
++---------------+
