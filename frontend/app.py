@@ -7,9 +7,9 @@ from streamlit_extras.switch_page_button import switch_page
 #--------------------------------------------------------------------------------------------#
 
 # FastAPI server URLs
-FASTAPI_URL_FILES = "http://127.0.0.1:8000/upload-files/"
-FASTAPI_URL_URLS = "http://127.0.0.1:8000/process-urls/"
-FASTAPI_URL_QUERY = "http://127.0.0.1:8000/generate-response/"
+FASTAPI_URL_FILES = "http://127.0.0.1:1000/upload-files/"
+FASTAPI_URL_URLS = "http://127.0.0.1:1000/process-urls/"
+FASTAPI_URL_QUERY = "http://127.0.0.1:1000/generate-response/"
 
 #--------------------------------------------------------------------------------------------#
 
