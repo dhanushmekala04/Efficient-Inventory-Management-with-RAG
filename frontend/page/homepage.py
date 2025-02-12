@@ -71,11 +71,11 @@ with st.sidebar:
 
 # adding sidebar actions
 if sidebar_options == 'About the App':
-    st.success("###### This is a RAG ChatBot application built using Streamlit, FastAPI, and OpenAI embeddings for document and URL-based Q&A functionality.")
+    st.success("###### This is a RAG ChatBot application built using Groq ,Streamlit, FastAPI, and HuggingFace embeddings for document and URL-based Q&A functionality.")
 
 
 elif sidebar_options == 'Ask Question':
-    switch_page('main')
+    switch_page('app')
 
 
 
