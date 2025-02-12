@@ -1,16 +1,24 @@
+Here’s a **refined and detailed version** of your **RAG ChatBot README** and **architecture diagram** for better clarity and presentation. I've also included a **text-based diagram** for easier visualization.
+
+---
+
 # RAG ChatBot
 
 ## Overview
 
-The RAG ChatBot is a Retrieval-Augmented Generation (RAG) based chatbot that allows users to interact with documents and web URLs. It processes uploaded files or URLs, chunks the content, generates embeddings, and provides answers to user queries based on the processed data. The backend is built using FastAPI, and the frontend is a Streamlit application.
+The **RAG ChatBot** is a **Retrieval-Augmented Generation (RAG)** based chatbot that allows users to interact with documents and web URLs. It processes uploaded files or URLs, chunks the content, generates embeddings, and provides answers to user queries based on the processed data. The backend is built using **FastAPI**, and the frontend is a **Streamlit** application.
+
+---
 
 ## Features
 
-- **File Upload**: Supports uploading PDF, DOCX, TXT, PPTX, and XLSX files.
-- **URL Processing**: Processes up to 5 web URLs at a time.
-- **Chunking and Embedding**: Chunks the content and generates embeddings using HuggingFace's sentence-transformers.
-- **Query Response**: Answers user queries based on the processed data and provides source references.
+- **File Upload**: Supports uploading **PDF, DOCX, TXT, PPTX, and XLSX** files.
+- **URL Processing**: Processes up to **5 web URLs** at a time.
+- **Chunking and Embedding**: Chunks the content and generates embeddings using **HuggingFace's sentence-transformers**.
+- **Query Response**: Answers user queries based on the processed data and provides **source references**.
 - **Streamlit Frontend**: User-friendly interface for interacting with the chatbot.
+
+---
 
 ## Project Structure
 
@@ -28,6 +36,8 @@ project/
 │
 └── README.md                 # Project documentation
 ```
+
+---
 
 ## Installation
 
@@ -74,18 +84,22 @@ project/
      streamlit run app.py
      ```
 
+---
+
 ## Usage
 
 1. **Upload Data**:
    - Use the sidebar to upload files or enter web URLs.
-   - Click "Process Files" or "Process URLs" to chunk and embed the data.
+   - Click **"Process Files"** or **"Process URLs"** to chunk and embed the data.
 
 2. **Ask Questions**:
    - Enter your query in the chat input box.
    - The chatbot will generate a response based on the processed data.
 
 3. **Clear Chat History**:
-   - Use the "Clear Chat History" button in the sidebar to reset the chat.
+   - Use the **"Clear Chat History"** button in the sidebar to reset the chat.
+
+---
 
 ## Technologies Used
 
@@ -93,24 +107,15 @@ project/
 - **Streamlit**: Frontend framework for building the user interface.
 - **HuggingFace Transformers**: For generating embeddings and processing text.
 - **FAISS**: For efficient similarity search and retrieval.
-- **Groq**: For generating responses using the Mixtral-8x7b-32768 model.
-
-
-## Acknowledgments
-
-- [HuggingFace](https://huggingface.co/) for the transformers and embeddings.
-- [FastAPI](https://fastapi.tiangolo.com/) for the backend framework.
-- [Streamlit](https://streamlit.io/) for the frontend framework.
-
-## Contact
-
-For any questions or feedback, please open an issue on GitHub or contact the maintainer directly.
+- **Groq**: For generating responses using the **Mixtral-8x7b-32768** model.
 
 ---
 
-Enjoy using the RAG ChatBot! 🚀
+## Architecture Diagram
 
+### **Text-Based Diagram**
 
+```
 +-------------------+
 |  RAG Chatbot      |
 +-------------------+
@@ -179,3 +184,40 @@ Enjoy using the RAG ChatBot! 🚀
 +-------v-------+
 | Groq/OpenAI API|
 +---------------+
+```
+
+---
+
+## Acknowledgments
+
+- [HuggingFace](https://huggingface.co/) for the transformers and embeddings.
+- [FastAPI](https://fastapi.tiangolo.com/) for the backend framework.
+- [Streamlit](https://streamlit.io/) for the frontend framework.
+
+---
+
+## Contact
+
+For any questions or feedback, please open an issue on GitHub or contact the maintainer directly.
+
+---
+
+Enjoy using the **RAG ChatBot**! 🚀
+
+---
+
+### **Visual Diagram (Optional)**
+
+If you prefer a visual diagram, you can use tools like **Lucidchart**, **Draw.io**, or **Miro** to create a flowchart based on the text-based diagram above. Here's a quick guide:
+
+1. **Central Node**: "RAG Chatbot".
+2. **Frontend Section**:
+   - Streamlit UI → Chat Interface → Query Input → Response Display → Source References.
+3. **Backend Section**:
+   - FastAPI Server → Document Processing → Embedding Storage → Query Processing → Response Generation.
+4. **Vector Database Section**:
+   - FAISS/Pinecone.
+5. **LLM Integration Section**:
+   - Groq/OpenAI API.
+
+This will give you a clean and professional visual representation of the architecture.
