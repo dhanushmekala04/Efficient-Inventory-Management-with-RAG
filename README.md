@@ -1,4 +1,4 @@
-### Efficient Inventory Management with RAG ChatBot
+### **Efficient Inventory Management with RAG ChatBot**
 
 #### Business Problem
 Managers and decision-makers need timely and accurate access to sales and inventory data. Traditional methods relying on technical teams for data retrieval are inefficient, time-consuming, and costly, causing delays in decision-making. This inefficiency hampers the ability to make swift, data-driven decisions.
