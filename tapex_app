@@ -11,6 +11,7 @@ def predict(table_path, query):
   """
   Predicts answer to a question using the TAPEX model on a given table.
 
+
   Args:
       table_path: Path to the CSV file containing the table data.
       query: The question to be answered.
